@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: o;
+    font-family: Century Gothic;
+
+}
+
+.navigation{
+
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+
+.logo{
+    margin-left: 1rem;
+    font-weight: bolder;
+    font-size: 30px;
+    
+    text-align: left;
+    justify-content: space-between;
+}
+
+.pic{
+    float: right;
+    
+}
+
+
+
+
+
