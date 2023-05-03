@@ -424,11 +424,11 @@ const Blog = () => {
             <Typography></Typography>
 
             <Box display='flex'> 
-            <img src='copyright.png' color="white" height='15px' width='15px'/>
+            <img src='copyright.png'  height='15px' width='15px'/>
             <Typography variant='h9' align='left' color="textPrimary" gutterBottom >2023</Typography>
             </Box> 
             </item>
-            
+
             
            <Stack direction="column" spacing={6} useFlexGap flexWrap="wrap">
             <item>
