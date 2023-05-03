@@ -4,31 +4,34 @@
     font-family: Century Gothic;
 
 }
-
+.section {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(250, 250, 250);
+    justify-content: space-between;
+}
+ 
+.section-Left {
+    flex-direction: row-reverse;
+}
 .navigation{
 
-    background-color: aqua;
+    background-color: #bdbea1;
     display: flex;
-    justify-content: space-between;
     width: 100%;
     height: 50px;
 }
 
 .logo{
+    display: flex;
+    flex: content;
+    justify-content: space-between;
     margin-left: 1rem;
     font-weight: bolder;
-    font-size: 30px;
-    
+    font-size: 20px;
     text-align: left;
-    justify-content: space-between;
-}
 
-.pic{
-    float: right;
     
 }
-
-
-
-
 
