@@ -62,8 +62,6 @@ export default App;*/
 import './App.css';
 import LoginButton from './components/LoginButton';
 import LogoutButton from './components/LogoutButton';
-import Main from './components/Main';
-import Blog from './components/Blog';
 import Profile from './components/Profile';
 
 function App(){
@@ -71,14 +69,10 @@ function App(){
     <div className='App'>
     <>
     <LoginButton />
-  
     <LogoutButton />
-
     <Profile />
-  
-    
     </>
     </div>
   )
 }
-export default App
+export default Appg

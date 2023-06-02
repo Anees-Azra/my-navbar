@@ -22,12 +22,8 @@ root.render(
       redirect_uri: 'http://localhost:3000'
     }}>
  <App />
- 
+ </Auth0Provider>
 
-</Auth0Provider>
-
-
-  
 );
 
 
