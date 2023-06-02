@@ -10,6 +10,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import SearchIcon from '@mui/icons-material/Search';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import FacebookIcon from '@mui/icons-material/Facebook';
+import LightModeTwoToneIcon from '@mui/icons-material/LightModeTwoTone';
 
 const light = {
   palette:{

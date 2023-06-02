@@ -1,11 +1,8 @@
-/*
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
-import './App.css';
-import Navbar from './components/Navbar';
-import LoginButton from './components/LoginButton';
+import React from 'react';
+import Navbar from './Navbar';
+import './styles/Main.css'
 
-
-function App() {
+function Main() {
   
   return (  
     <div>
@@ -24,7 +21,7 @@ function App() {
           <div id="maindiv">
             <span><img src="search-bar.png"/></span>
             <span id="inputspan"><input type="text" name="search"/></span>
-            <span><img src="mic.png"/></span>
+            
           </div>
         </div>
         <div>
@@ -33,8 +30,8 @@ function App() {
         </div>
         
         <section>
-          <div><button type="submit">Google Search</button></div>
-          <div><button type="submit">I'm feeling lucky</button></div>
+          <div><button class="search" type="submit">Google Search</button></div>
+          <div><button class="lucky" type="submit">I'm feeling lucky</button></div>
         </section>
         <div><a href="">Work, learn and run your bussiness from home</a></div>
         <div id="Bottomdiv">
@@ -57,28 +54,4 @@ function App() {
   );
 }
 
-export default App;*/
-
-import './App.css';
-import LoginButton from './components/LoginButton';
-import LogoutButton from './components/LogoutButton';
-import Main from './components/Main';
-import Blog from './components/Blog';
-import Profile from './components/Profile';
-
-function App(){
-  return (
-    <div className='App'>
-    <>
-    <LoginButton />
-  
-    <LogoutButton />
-
-    <Profile />
-  
-    
-    </>
-    </div>
-  )
-}
-export default App
+export default Main;

@@ -1,12 +1,40 @@
-/*
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
-import './App.css';
-import Navbar from './components/Navbar';
-import LoginButton from './components/LoginButton';
+import React from 'react';
+import {useAuth0} from '@auth0/auth0-react';
+import { BrowserRouter,Routes,Route, redirect } from 'react-router-dom';
+import Main from './Main';
+import Blog from './Blog';
 
 
-function App() {
-  
+
+function UserProfile() {
+    const {user, isAuthenticated,isLoading} = useAuth0();
+
+
+    if(isLoading){
+      <div>Loading...</div>
+    }
+    return(
+        isAuthenticated &&(
+        <BrowserRouter>
+          <Routes>
+           <Route path='/' Component={Main}/>
+           <Route path='/blog' Component={Blog}/>
+          </Routes>
+        </BrowserRouter>
+        )
+            
+    
+    )
+}
+
+export default UserProfile
+
+
+/*import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import React from 'react';
+import Navbar from './Navbar';
+function Profile() {
+
   return (  
     <div>
 
@@ -57,28 +85,4 @@ function App() {
   );
 }
 
-export default App;*/
-
-import './App.css';
-import LoginButton from './components/LoginButton';
-import LogoutButton from './components/LogoutButton';
-import Main from './components/Main';
-import Blog from './components/Blog';
-import Profile from './components/Profile';
-
-function App(){
-  return (
-    <div className='App'>
-    <>
-    <LoginButton />
-  
-    <LogoutButton />
-
-    <Profile />
-  
-    
-    </>
-    </div>
-  )
-}
-export default App
+export default Profile;*/

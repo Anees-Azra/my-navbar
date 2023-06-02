@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: o;
+    font-family: Century Gothic;
+
+}
+
+.login{  
+    margin: 2rem 0;
+    margin: 0px auto;
+    padding: 1rem 2rem;
+    width: 300px;
+    height: 50px;
+    border: 5px solid red;  
+    background-color: rgb(192, 195, 176);
+    display: flex;
+    justify-content: center;  
+    }  

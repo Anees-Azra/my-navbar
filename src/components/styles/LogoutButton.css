@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: o;
+    font-family: Century Gothic;
+
+}
+
+
+
+
+.logout{  
+    margin: 2rem 0;
+    margin: 0px auto;
+    padding: 1rem 2rem;
+    width: 300px;
+    height: 30px;
+    border: 5px solid rgb(128, 0, 255);  
+    background-color: rgb(174, 201, 21);
+    position: relative;
+    display: flex;
+    justify-content: center;  
+    }  
+    
