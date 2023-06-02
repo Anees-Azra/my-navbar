@@ -10,13 +10,7 @@ import {Auth0Provider} from '@auth0/auth0-react';
 import LoginButton from './components/LoginButton';
 import LogoutButton from './components/LogoutButton';
 import Profile from './components/Profile';
-/*import LoginButton from './components/LoginButton';
-import {Auth0Provider} from '@auth0/auth0-react';
-import LogoutButton from './components/LogoutButton';
-import Profile from './components/Profile';
 
-const domain = process.env.REACT_APP_AUTH0_DOMAIN;
-const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID;*/
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
