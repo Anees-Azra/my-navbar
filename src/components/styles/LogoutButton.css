@@ -2,20 +2,26 @@
     margin: 0;
     padding: o;
     font-family: Century Gothic;
-
+    position: relative;
+    
+  
 }
 
 
 
 
-.logout{  
-    margin: 2rem 0;
+.logout{ 
+    
+    color: rgb(204, 18, 18); 
+    font-weight: bolder;
+    font-size: 80%;
+    text-transform: uppercase;
     margin: 0px auto;
-    padding: 1rem 2rem;
+    padding: 0.3% 2%;
     width: 300px;
     height: 30px;
-    border: 5px solid rgb(128, 0, 255);  
-    background-color: rgb(174, 201, 21);
+    border: 5px solid rgb(169, 165, 174);  
+    background-color: rgb(213, 213, 237);
     position: relative;
     display: flex;
     justify-content: center;  

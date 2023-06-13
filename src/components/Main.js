@@ -1,41 +1,32 @@
 import React from 'react';
 import Navbar from './Navbar';
 import './styles/Main.css'
+import SearchBar from './SearchBar'
+import SearchResultsList from './SearchResultsList'
+import {useState} from'react'
 
 function Main() {
-  
-  return (  
+  const [results,setResults] = useState([])
+    return (  
     <div>
-
     <nav>
       <Navbar />
-      
-    </nav>
-    
-    <main>
+      </nav>
+      <main>
       <center>
         <img src="google logo1.png" width="20%" height="5%" id="googleimg"/>
-        
+        <div className='Main'>
+        <div className='search-bar-container'>
+          <SearchBar setResults={setResults}/>
+          <SearchResultsList results={results}/>
+        </div>
+        </div>
       
-        <div>
-          <div id="maindiv">
-            <span><img src="search-bar.png"/></span>
-            <span id="inputspan"><input type="text" name="search"/></span>
-            
-          </div>
-        </div>
-        <div>
-          <div id="maindiv">
-          </div>
-        </div>
-        
-        <section>
-          <div><button class="search" type="submit">Google Search</button></div>
-          <div><button class="lucky" type="submit">I'm feeling lucky</button></div>
-        </section>
+
         <div><a href="">Work, learn and run your bussiness from home</a></div>
         <div id="Bottomdiv">
           <span>Google offered in:</span>
+         
           <ul>
             <li><a href="">हिन्द</a>ी</li>
             <li><a href="">বাংলা</a></li>

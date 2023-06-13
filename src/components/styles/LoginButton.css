@@ -6,9 +6,12 @@
 }
 
 .login{  
-    margin: 2rem 0;
-    margin: 0px auto;
-    padding: 1rem 2rem;
+    color: rgb(64, 0, 255);
+    font-weight: bolder;
+    font-size : 20px ;
+    text-transform: uppercase;
+    margin: 150px auto;
+    padding: 0.8% 2%;
     width: 300px;
     height: 50px;
     border: 5px solid red;  

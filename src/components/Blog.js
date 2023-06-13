@@ -1,5 +1,5 @@
 import * as React from 'react'
-
+import './styles/Blog.css'
 import {createTheme, Stack,ThemeProvider,Switch,Box,
   Typography,CssBaseline,AppBar,Container, Grid, Button,
   ButtonBase,Link,Divider, IconButton} from '@mui/material';
@@ -52,9 +52,7 @@ const Blog = () => {
           
             <img src='logo192.png' align="left" height='50px' width='50px'/>
             
-            <ButtonBase >
-
-          
+            <ButtonBase justifyContent ="space-between" >
             <Button   
              variant="cta" color="default" disabled='true' 
              href='https://react.dev/blog'
@@ -101,8 +99,8 @@ const Blog = () => {
             </IconButton>            
 
            
-            <IconButton onClick={isDarkTheme} onChange={changeTheme}>
-              <NightlightOutlinedIcon/>
+            <IconButton >
+              <NightlightOutlinedIcon onClick={isDarkTheme} onChange={changeTheme}/>
             </IconButton>
 
             <GitHubIcon onClick={event =>  window.location.href='https://github.com/facebook/react/releases'} />
